@@ -45,6 +45,32 @@
 
 ---
 
+##Contoh Penggunaan
+=== MENU SUPER INTERAKTIF ===
+0. Masukkan / Ganti file path
+1. Tambah kata
+2. Hapus kata
+3. Cek kata
+4. Lihat semua kata
+5. Cari kata berdasarkan awalan/akhiran
+6. Statistik kata
+7. Bersihkan layar (CLS)
+8. Keluar
+9. Info file sekarang
+
+Pilih aksi (0-9): 0
+Masukkan file path: dictionary.txt
+[INFO] File 'C:\Users\User\dictionary.txt' berhasil dibuka. Jumlah kata: 120
+[INFO] Sekarang menggunakan file: C:\Users\User\dictionary.txt
+
+Pilih aksi (0-9): 1
+Masukkan kata yang ingin ditambahkan (pisah spasi jika banyak): Fisika Kimia Matematika
+[ADD] Kata 'Fisika' berhasil ditambahkan.
+[ADD] Kata 'Kimia' berhasil ditambahkan.
+[ADD] Kata 'Matematika' berhasil ditambahkan.
+
+---
+
 ## Cara Menggunakan
 
 1. **Clone repo atau download skrip Python**  
