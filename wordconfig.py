@@ -6,7 +6,7 @@ def cls():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def load_file(file_path):
-    """Baca file dan kembalikan list kata. Kembalikan None jika file tidak ditemukan."""
+    """Baca file dan kembalikan list kata. None jika file tidak ditemukan."""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             kata_list = [line.strip() for line in f if line.strip()]
@@ -20,7 +20,7 @@ def load_file(file_path):
         return None
 
 def save_file(file_path, kata_list):
-    """Simpan list kata ke file, urutkan."""
+    """Simpan list kata ke file & tersortir sesuai abjad."""
     kata_sorted = sorted(set(kata_list), key=str.lower)
     with open(file_path, "w", encoding="utf-8") as f:
         for kata in kata_sorted:
@@ -105,7 +105,7 @@ def main():
     kata_list = []
 
     while True:
-        print("\n=== MENU SUPER INTERAKTIF ===")
+        print("\n=== DAFTAR MENU ===")
         print("0. Masukkan / Ganti file path")
         print(f"1. Tambah kata {'[TIDAK TERSEDIA]' if not current_file else ''}")
         print(f"2. Hapus kata {'[TIDAK TERSEDIA]' if not current_file else ''}")
