@@ -1,6 +1,6 @@
 # Dictionary Manager (Python)
 
-**Dictionary Manager** adalah skrip Python berbasis terminal yang memungkinkan pengguna untuk **mengelola file daftar kata secara interaktif**. Skrip ini mendukung operasi tambah, hapus, cek, statistik, pencarian kata, dan manajemen file secara aman.
+**Dictionary Manager** adalah skrip Python berbasis terminal yang memungkinkan pengguna untuk **mengelola file daftar kata secara cepat**. Skrip ini mendukung operasi tambah, hapus, cek, statistik, pencarian kata, dan manajemen file secara aman.
 
 ---
 
@@ -47,7 +47,7 @@
 
 ## Contoh Penggunaan
 
-=== MENU SUPER INTERAKTIF ===
+=== DAFTAR MENU ===
 0. Masukkan / Ganti file path
 1. Tambah kata
 2. Hapus kata
